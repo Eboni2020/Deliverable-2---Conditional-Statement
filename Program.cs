@@ -13,7 +13,7 @@ namespace Deliverable_2___Conditional_Statement
             string input = Console.ReadLine();
             int grade;
             grade = int.Parse(input);
-            Console.ReadLine();
+            // Console.ReadLine();
 
             //If Else statement used to display the student's letter grade based on the numeric value input for input expected grade starting from an A+ down to an F letter grade
             if ((grade >= 98) && (grade<= 100))
